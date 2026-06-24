@@ -1,4 +1,4 @@
-﻿name: Task Validation
+name: Task Validation
 
 on: [push, pull_request]
 
@@ -13,25 +13,25 @@ jobs:
       
       - name: Build environment image
         run: |
-          cd tasks/hallucination-firewall-verifier
+          cd hallucination-firewall-verifier
           docker build -f environment/Dockerfile -t firewall-env .
       
       - name: Build test image
         run: |
-          cd tasks/hallucination-firewall-verifier
+          cd hallucination-firewall-verifier
           docker build -f tests/Dockerfile -t firewall-test .
       
       - name: Run NOP validation (broken code should fail)
         run: |
-          cd tasks/hallucination-firewall-verifier
+          cd hallucination-firewall-verifier
           docker run --rm -v ${PWD}:/app firewall-test bash /app/tests/test.sh || true
       
       - name: Apply oracle solution
         run: |
-          cd tasks/hallucination-firewall-verifier
+          cd hallucination-firewall-verifier
           bash solution/solve.sh
       
       - name: Run oracle validation (fixed code should pass)
         run: |
-          cd tasks/hallucination-firewall-verifier
+          cd hallucination-firewall-verifier
           docker run --rm -v ${PWD}:/app firewall-test bash /app/tests/test.sh
