@@ -198,12 +198,12 @@ docker run --rm -v $(pwd):/app firewall-test bash /app/tests/test.sh
 ## Contact
 
 - **Author**: Sai Teja Gurrala
-- **Email**: gurralas3@udayton.edu
+- **Email**: saitejagurrala293@gmail.com
 - **GitHub**: https://github.com/gurralas3
 - **Repository**: https://github.com/gurralas3/terminal-bench-3-hallucination-firewall
 
 ---
 
 **Status**: ✅ READY FOR SUBMISSION  
-**Last Updated**: 2026-06-24  
+**Last Updated**: 2026-06-25  
 **All Validations**: PASSING
