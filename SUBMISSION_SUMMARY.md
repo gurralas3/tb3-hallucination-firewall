@@ -3,7 +3,7 @@
 ## Task Overview
 
 **Task Name**: Hallucination Firewall Verifier  
-**Author**: Saite Jagurrala (gurralas3@udayton.edu)  
+**Author**: Sai Teja Gurrala (gurralas3@udayton.edu)  
 **Repository**: https://github.com/gurralas3/terminal-bench-3-hallucination-firewall  
 **Submission Date**: 2026-06-24  
 
@@ -197,7 +197,7 @@ docker run --rm -v $(pwd):/app firewall-test bash /app/tests/test.sh
 
 ## Contact
 
-- **Author**: Saite Jagurrala
+- **Author**: Sai Teja Gurrala
 - **Email**: gurralas3@udayton.edu
 - **GitHub**: https://github.com/gurralas3
 - **Repository**: https://github.com/gurralas3/terminal-bench-3-hallucination-firewall
