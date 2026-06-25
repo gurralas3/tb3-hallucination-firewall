@@ -5,7 +5,7 @@
 **Task Name**: Hallucination Firewall Verifier  
 **Author**: Sai Teja Gurrala (gurralas3@udayton.edu)  
 **Repository**: https://github.com/gurralas3/terminal-bench-3-hallucination-firewall  
-**Submission Date**: 2026-06-24  
+**Submission Date**: 2026-06-25  
 
 ## Task Description
 
